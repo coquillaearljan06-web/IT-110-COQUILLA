@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practical Application Activity</title>
+</head>
+<body>
+
+    <h1 id="main-heading">HTML Practical Application Activity</h1>
+
+    <h2 id="images">Images</h2>
+
+    <figure>
+        <img src="images/html.jpg" alt="HTML code displayed on a computer screen" width="300">
+        <figcaption>HTML is used to structure the content of a web page.</figcaption>
+    </figure>
+
+    <img src="images/css.jpg" alt="CSS code used for web page styling">
+
+    <img src="images/javascript.jpg" alt="JavaScript code used for web programming">
+
+
+    <h2>Hyperlinks</h2>
+
+    <p>
+        <a href="activity.html">Internal Link</a>
+    </p>
+
+    <p>
+        <a href="https://www.w3schools.com/" target="_blank">External Link</a>
+    </p>
+
+    <p>
+        <a href="activity.html#images">Internal Link</a>
+    </p>
+
+    <p>
+        <a href="#multimedia">Go to Multimedia Section</a>
+    </p>
+
+
+    <h2 id="multimedia">Multimedia</h2>
+
+    <h3>Audio</h3>
+
+    <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Video</h3>
+
+    <video controls width="500">
+        <source src="media/video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+        <h2>Useful Tags</h2>
+
+    <!-- I chose the mark tag to highlight an important word. -->
+    <p>HTML is <mark>important</mark> for creating web pages.</p>
+
+    <!-- I chose the abbr tag to show the full meaning of an abbreviation. -->
+    <p><abbr title="HyperText Markup Language">HTML</abbr> is used to structure web pages.</p>
+
+    <!-- I chose the blockquote tag to display a quotation separately from normal text. -->
+    <blockquote>
+        Learning HTML is an important step in learning web development.
+    </blockquote>
+
+<!--
+The body element is the parent of the main heading and the other sections on the page.
+The figure element is the parent of the HTML image and its figcaption.
+The img and figcaption elements are children of the figure element.
+This parent-child relationship can be seen in the DOM tree in the browser's Elements panel.
+-->
+
+</body>
+</html>
